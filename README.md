@@ -14,13 +14,21 @@ There are many different ways to install python, here I will give two resources 
 ### Install a single version of Python
 If you think you will not use multiple versions of python then you can go directly to [python.org](https://www.python.org/downloads) and download version 3.10, 3.11 or 3.12.
 ### Managing multiple versions of Python
-I use pyenv to manage multiple different versions of python on my machine, it also works well with common python virtual enviroment tools. Follow [these steps](https://realpython.com/intro-to-pyenv/) to get pyenv set up on your machine. 
+I use pyenv to manage multiple different versions of python on my machine, it also works well with common python virtual enviroment tools. Follow the resouces below to get pyenv set up on your machine.
+- [these steps for mac](https://realpython.com/intro-to-pyenv/) 
+- [these steps for windows](https://pypi.org/project/pyenv-win/)
 
 ## Using a Python Virtual Enviroment
-Using a python virtual enviroment allows you to have multple project on your machine at once without having different versions of python or libraries conflict with eachother. I highly recommend using virtual enviorment to manage all of your python projects. You can read [here](https://realpython.com/python-virtual-environments-a-primer/#why-do-you-need-virtual-environments?) for more information about this. Here are some resources, you only need to select one of these tools to use:
+Using a python virtual enviroment allows you to have multple python projects on your machine at once without having different versions of python or libraries conflict with eachother. I highly recommend using virtual enviorment to manage all of your python projects. You can read [here](https://realpython.com/python-virtual-environments-a-primer/#why-do-you-need-virtual-environments?) for more information about this. Here are some resources, you only need to select one of these tools to use:
+
+**Mac Resources:**
 - [pyenv virtual enviroment set up](https://realpython.com/intro-to-pyenv/#virtual-environments-and-pyenv)
 - [Python's venv](https://realpython.com/python-virtual-environments-a-primer/)
-- [virtualenv](https://realpython.com/python-virtual-environments-a-primer/#the-virtualenv-project) This tool is a superset of python's venv.
+- [virtualenv](https://realpython.com/python-virtual-environments-a-primer/#the-virtualenv-project)
+
+**Windows Resources:**
+- [pyenv Virtual Environment set up](https://pypi.org/project/pyenv-win/) (same steps/resouce called out in the previous section for pyenv)
+- [Virtualenv](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html)
 
   Note: I do not reccomend using conda due to all of the additional libraries it downloads.
 
