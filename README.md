@@ -27,7 +27,6 @@ Using a python virtual enviroment allows you to have multple python projects on 
 - [virtualenv](https://realpython.com/python-virtual-environments-a-primer/#the-virtualenv-project)
 
 **Windows Resources:**
-- [pyenv Virtual Environment set up](https://pypi.org/project/pyenv-win/) (same steps/resouce called out in the previous section for pyenv)
 - [Virtualenv](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html)
 
   Note: I do not reccomend using conda due to all of the additional libraries it downloads.
