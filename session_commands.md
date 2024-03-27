@@ -8,7 +8,7 @@ Windows: `py manage.py runserver`
 ### Mac
 `python manage.py makemigrations blog`
 `python manage.py sqlmigrate blog 0001`
-`python manage.py migrage`
+`python manage.py migrate`
 
 ### Windows
 `py manage.py makemigrations blog`
