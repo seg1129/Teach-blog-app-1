@@ -56,3 +56,6 @@ Using a python virtual enviroment allows you to have multple python projects on 
 ## IDE
 Using your prefered IDE, open the project folder 'firstWebApp'.
 
+## additional links
+https://www.djangoproject.com/
+
