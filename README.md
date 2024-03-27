@@ -31,15 +31,28 @@ Using a python virtual enviroment allows you to have multple python projects on 
 
   Note: I do not reccomend using conda due to all of the additional libraries it downloads.
 
-## Downloading and setting up Django
+## Downloading and setting up Django with Mac
 1. Create a new python virtual enviornment using python version 3.10, 3.11 or 3.12 and give the env a unique name.
-2. Install Django
-   - Linux/ MacOS: `python -m pip install Django==5.0.3`
-   - Windows: `py -m pip install Django==5.0.3`
+2. Install Django: `python -m pip install Django==5.0.3`
 3. Verify your installation worked: `python -m django --version` output should be the version of Django you installed.
 4. Navigate to the file system that you want to store you code for this project.
 5. Create a Django project - This will auto-generate some code for your new project. `django-admin startproject firstWebApp`
-6. Create a Django app - This will also auto-generate some code for your new application. Before running, make sure you are in the same directory, in your project, as file 'manage.py'. `python manage.py startapp blog`
-7. Run the development server `python manage.py runserver 8000`
-8. Navigate to the web browser `localhost:8000` and you should see a blue Django ribbon with a log in page. This is an indication that your project is all set up and you are ready to go!
+6. Navigate into the project folder you juest created: `cd ./firstWebApp`
+7. Create a Django app - This will also auto-generate some code for your new application. Before running, make sure you are in the same directory, in your project, as file 'manage.py'. `python manage.py startapp blog`
+8. Run the development server `python manage.py runserver 8000`
+9. Navigate to the web browser `localhost:8000` and you should see a blue Django ribbon with a log in page. This is an indication that your project is all set up and you are ready to go!
+
+## Downloading and setting up Django with Windows
+1. Create a new python virtual enviornment using python version 3.10, 3.11 or 3.12 and give the env a unique name.
+2. Install Django: `py -m pip install Django==5.0.3`
+3. Verify your installation worked: `py -m django --version` output should be the version of Django you installed.
+4. Navigate to the file system that you want to store you code for this project.
+5. Create a Django project - This will auto-generate some code for your new project. `py -m django startproject firstWebApp`
+6. Navigate into the project folder you just created: 'cd .\firstWebApp`
+7. Create a Django app - This will also auto-generate some code for your new application. Before running, make sure you are in the same directory, in your project, as file 'manage.py'. `py manage.py startapp blog`
+8. Run the development server `py manage.py runserver 8000`
+9. Navigate to the web browser `localhost:8000` and you should see a blue Django ribbon with a log in page. This is an indication that your project is all set up and you are ready to go!
+
+## IDE
+Using your prefered IDE, open the project folder 'firstWebApp'.
 
